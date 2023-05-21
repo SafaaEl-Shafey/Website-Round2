@@ -1,0 +1,203 @@
+.home{
+	background-image: url("../images/AI_banner_bg.jpg");
+	background-size:cover;
+}
+
+.logo{
+	border-bottom:3px solid;
+	border-left:4px solid;
+	border-radius: 100%;
+	width: 70px;
+	height: 70px;
+}
+
+.font{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.colorLightBlue{
+	color:rgb(204, 255, 255);
+}
+
+.header{
+	background-color:rgb(40,85,105,.5);
+}
+
+.navItemHome{
+	background: rgba(255, 255, 255, .20);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+}
+
+.navItemBox:hover{
+	background: rgba(255, 255, 255, .20);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+}
+.navItemText:hover{
+	
+	color:white;
+}
+.homeText:hover{
+	color:white;
+}
+
+/* ********** end of header ******** */
+
+/* ********** intro ************ */
+.description{
+	color:#ffffcc;
+}
+
+.intro{
+	max-width:600px;
+	background-color: rgb(40,85,105,.8);
+	border-radius: 6px;
+}
+div.intro:hover{
+	box-shadow: 2px 2px 20px white;
+}
+.getStarted{
+	border:3px solid rgba(0, 0, 0,.8) ;
+	border-radius: 5px;
+	background-color: rgb(204, 204, 255,.5);
+   }
+
+   .safaa{
+	color:transparent;
+	-webkit-text-stroke: 1px white;
+   }
+
+
+   /* ************ Vision and message ******** */
+   
+   .boxShadow-vision{
+	box-shadow: 5px 5px 4px black;
+	background-image: linear-gradient(135deg, #fff, #ddd,#CCC);
+   }
+
+   /* ********* End *********** */
+   /* *********** Courses ********** */
+
+
+div.cardCourses:hover{
+	box-shadow: 5px 5px 5px #a3a3c2;
+	transform: scale(1.05);
+}
+
+.cardCourses{
+	transition: transform .3s;
+  }
+
+.courses{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/sea1.jpg');
+}
+
+.imageSizeCard{
+height: 200px;
+}
+
+
+
+/*********** Plans ***********/ 
+
+div.cardPlanBasic:hover{
+	background-color: rgb(204, 153, 255,.3);
+	border:2px  rgb(204, 153, 255) solid;
+	box-shadow: 2px 2px 2px rgb(204, 153, 255);
+}
+
+div.cardPlanBusiness:hover{
+	background-color: rgb(255, 255, 204,.5);
+	border:2px rgb(204, 153, 0) solid;
+	box-shadow: 2px 2px 2px rgb(204, 153, 0);
+}
+
+div.cardPlanPremium:hover{
+	background-color: rgb(153, 204, 255,.5);
+	border:2px rgb(153, 204, 255) solid;
+	box-shadow: 2px 2px 2px rgb(153, 204, 255);
+}
+/* ********** Student ********* 
+
+*/
+.student{ 
+	background-color: rgb(204, 153, 255,.3);
+	background-image: url('https://img5.goodfon.com/wallpaper/nbig/e/7f/sea-sky-sunset-pink-beach-more-nebo-zakat-pliazh.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.flip-card {
+	width: 300px;
+	height: 300px;
+	filter: drop-shadow(0 0 10px rgb(34, 30, 152));
+  }
+  
+  .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+
+  /* in the same place and hidden */
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+	background-color: white;
+	color: black;
+  }
+  
+  .flip-card-back {
+	background-color: rgba(49, 23, 222, 0.2);
+	color: white;
+	transform: rotateY(180deg); /* 0 - 90 image - 180 */
+	/* this is back face */
+  }
+
+  /* ************ end of Student *********** */
+
+/* ************ ideas ************* */
+.cardSizeIdea{
+	width:400px;
+	height: 400px;
+	filter: drop-shadow(2px 2px 10px black);
+}
+
+.cardSizeIdea:hover{
+	filter:grayscale(80%);
+	border: 2px  rgb(59, 58, 61) solid;
+	margin-top: -20px;
+}
+
+/* ************** Quote ************* */
+.quote{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/sea2.jpg');
+}
+
+.quoteCard{
+	background-color: rgba(224, 229, 234, 0.8);
+	box-shadow: 0px 0px 5px gray;
+}
+
+/* ********** Social media ********* */
+.purpuleColor{
+	color:#82308d;
+}
